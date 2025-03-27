@@ -8,6 +8,7 @@ import {
   MdProductionQuantityLimits,
   MdOutlineAttachMoney,
   MdSwapHoriz,
+  MdCompareArrows,
 } from 'react-icons/md';
 
 // Admin Imports
@@ -97,6 +98,14 @@ const routes: IRoute[] = [
     layout: '/admin',
     path: '/swap',
     icon: <Icon as={MdSwapHoriz} width="20px" height="20px" color="inherit" />,
+  },
+  {
+    name: 'Bridge Tokens',
+    layout: '/admin',
+    path: '/bridge',
+    icon: (
+      <Icon as={MdCompareArrows} width="20px" height="20px" color="inherit" />
+    ),
   },
 ];
 
